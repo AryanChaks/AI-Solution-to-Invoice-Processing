@@ -1,0 +1,8 @@
+PO,Vendor,Items,Qty,Unit Price,Tax %,PO Total
+PO-1001,Apex Industrial Supplies Pvt Ltd,WID-01 Steel Widget,100,1000,18,118000
+PO-1002,Apex Industrial Supplies Pvt Ltd,MNT-01 Maintenance Service Hour,100,1000,0,100000
+PO-2001,Bluewave Logistics Pvt Ltd,FRT-01 Freight Charges Pallet,100,1000,18,118000
+PO-2002,Bluewave Logistics Pvt Ltd,FRT-02 Warehouse Handling Hour,50,2000,0,100000
+PO-3001,Crestline Office Solutions Pvt Ltd,OFF-01 Office Chair x20 @5500; OFF-02 Desk Lamp x50 @800,,,18,177000
+PO-3002,Crestline Office Solutions Pvt Ltd,PAP-01 Printer Paper A4 Box,200,450,12,100800
+PO-4001,Bluewave Logistics Pvt Ltd,FRT-01 Freight Charges Pallet (CANCELLED PO),10,1000,18,11800

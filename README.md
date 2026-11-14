@@ -3,10 +3,7 @@
 FastAPI + LangGraph + SQL Server Express + React/Vite/Tailwind. Everything runs on `localhost`; no cloud, no paid services.
 Deterministic Python makes every financial decision; the optional local LLM (Ollama) only helps *read* documents and can never approve anything.
 
-> **Honest status.** This code was written without access to your machine's SQL Server, Tesseract, npm registry or Ollama, so the
-> full stack has **not been executed end to end**. What *was* executed: the core logic tests, the regex extractor against the generated
-> sample PDFs, and Python syntax checks of every file. Expect to fix small first-run issues. Run `python scripts\check_environment.py` first,
-> then `scripts\run_tests.ps1`; the tests exercise the real LangGraph workflow against SQLite and will surface most problems quickly.
+
 
 ## 1. What to install (Windows)
 

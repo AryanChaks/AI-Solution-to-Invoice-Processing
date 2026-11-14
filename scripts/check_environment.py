@@ -24,7 +24,10 @@ print("OCR")
 try:
     from app.extraction.ocr_service import tesseract_available
     import pytesseract
-    (ok if tesseract_available() else bad)(f"Tesseract {'v' + str(pytesseract.get_tesseract_version()) if tesseract_available() else 'not found — install it and set TESSERACT_PATH in backend\\.env'}")
+    if tesseract_available():
+        ok("Tesseract v" + str(pytesseract.get_tesseract_version()))
+    else:
+        bad("Tesseract not found - install it and set TESSERACT_PATH in backend\\.env")
 except Exception as e: bad(str(e))
 print("Optional: Ollama")
 try:
